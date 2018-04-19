@@ -1,0 +1,146 @@
+head{
+    font: 14px Arial;
+}
+
+body{
+    font: 16px Arial;
+}
+
+p{
+    font: 16px Arial;
+}
+
+h1{
+    font: bold 30px Arial;
+}
+
+h2{
+    font: bold 25px Arial;
+}
+
+h3{
+    font: bold 20px Arial;
+}
+
+h4{
+    font: bold 15px Arial;
+}
+
+h5{
+    font: bold 10px Arial;
+}
+
+.topnav {
+    clear: both;
+   
+    
+    font-family: Arial;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eee;
+    position: relative;
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.topnav li {float: left;}
+
+.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav li a:hover:not(.active) {
+    background-color: #119;
+    color: white
+}
+
+.topnav li.right {float: right;}
+
+
+
+.viewnav {
+    clear: both;
+   
+    
+    font-family: Arial;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eee;
+    position: relative;
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.viewnav li {float: left;}
+
+.viewnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.viewnav li a:hover:not(.active) {
+    background-color: #119;
+    color: white
+}
+
+.viewnav li.right {float: right;}
+
+
+
+
+.site-container {
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;  
+}
+
+.bottom-navbar{
+    position: absolute;
+
+}
+
+#canvas {
+    padding-top: 10px;  
+    background-color: #FFF;
+    width: 440px;
+    height:440px;
+    
+    
+}
+
+.btn-group .button {
+    background-color: #eee; /* Green */
+    border: 1px solid #eee;
+    color: black;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 110px;
+    cursor: pointer;
+    float: right;
+}
+.btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+.btn-group .button:hover {
+    background-color: #119;
+    color: white;
+}
+
